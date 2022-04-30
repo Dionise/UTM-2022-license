@@ -192,7 +192,7 @@
 
 // This defines the number of extruders
 // :[0, 1, 2, 3, 4, 5, 6, 7, 8]
-#define EXTRUDERS 0
+#define EXTRUDERS 1
 
 // Generally expected filament diameter (1.75, 2.85, 3.0, ...). Used for Volumetric, Filament Width Sensor, etc.
 #define DEFAULT_NOMINAL_FILAMENT_DIA 1.75
@@ -709,8 +709,8 @@
  *
  * *** IT IS HIGHLY RECOMMENDED TO LEAVE THIS OPTION ENABLED! ***
  */
-#define PREVENT_COLD_EXTRUSION
-#define EXTRUDE_MINTEMP 170
+//#define PREVENT_COLD_EXTRUSION
+//#define EXTRUDE_MINTEMP 170
 
 /**
  * Prevent a single extrusion longer than EXTRUDE_MAXLENGTH.
